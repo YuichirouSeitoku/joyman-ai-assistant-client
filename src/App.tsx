@@ -14,7 +14,7 @@ const App: React.FC = () => {
     setResponse(null);
 
     try {
-      const res = await fetch('https://joyman-ai-assistant.kazeso-kazewo.workers.dev', {
+      const res = await fetch('https://joyman-ai-assistant.kazeso-kazewo.workers.dev/generate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
